@@ -112,7 +112,7 @@ public class Controller {
         this.newPartie();
         Alert dialog = new Alert(Alert.AlertType.ERROR);
         dialog.setTitle("Vous avez perdu");
-        dialog.setHeaderText("Vous ave bien rempli la grille mais certains chiffres sont incorrects");
+        dialog.setHeaderText("Vous avez bien rempli la grille mais certains chiffres sont incorrects");
         dialog.show();
     }
 
@@ -123,23 +123,25 @@ public class Controller {
         for (int i=0;i<9;i++) {
             for (int j=0;j<9;j++) {
                 tempNode = this.getCase(new Case(i,j));
+                System.out.println(tempNode);
                 if (this.moteurJeu.getGrilleReponse()[i][j]!=0) {
-                    ((Label)tempNode).setText(""+this.moteurJeu.getGrilleReponse()[i][j]);
+                    ((Label) tempNode).setText(""+this.moteurJeu.getGrilleReponse()[i][j]);
                     tempNode.setDisable(true);
                 }
             }
         }
     }
 
+    //*****METHODES RELATIVES A I/O*****//
     @FXML
-    private void handleOnMouseClicked(MouseEvent event)
+    private void onMouseClicked(MouseEvent event)
     {
         Node source = (Node)event.getSource();
         tempNode = source;
     }
 
     private void numberPressed(int n){
-        if(tempNode != null){ ((Label)tempNode).setText("" + n);}
+        if(tempNode!=null){((Label)tempNode).setText(""+n);}
         Case c = getPosition(tempNode);
         this.moteurJeu.setCase(n, c.getX(), c.getY());
         if (moteurJeu.isRemplie()) {

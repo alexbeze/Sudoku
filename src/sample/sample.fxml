@@ -56,47 +56,47 @@
                             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                           </rowConstraints>
                            <children>
-                              <Label alignment="CENTER" contentDisplay="CENTER" GridPane.halignment="CENTER">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.halignment="CENTER">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label alignment="CENTER" contentDisplay="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1" GridPane.halignment="CENTER">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label alignment="CENTER" contentDisplay="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.halignment="CENTER">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label alignment="CENTER" contentDisplay="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.halignment="CENTER" GridPane.rowIndex="1">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label alignment="CENTER" contentDisplay="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label alignment="CENTER" contentDisplay="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label alignment="CENTER" contentDisplay="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label alignment="CENTER" contentDisplay="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label alignment="CENTER" contentDisplay="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.halignment="CENTER" GridPane.rowIndex="2">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
@@ -115,47 +115,47 @@
                             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                           </rowConstraints>
                            <children>
-                              <Label GridPane.halignment="CENTER">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.halignment="CENTER">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.columnIndex="1" GridPane.halignment="CENTER">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1" GridPane.halignment="CENTER">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.columnIndex="2" GridPane.halignment="CENTER">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.halignment="CENTER">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.halignment="CENTER" GridPane.rowIndex="1">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.halignment="CENTER" GridPane.rowIndex="1">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.halignment="CENTER" GridPane.rowIndex="2">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.halignment="CENTER" GridPane.rowIndex="2">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
@@ -174,47 +174,47 @@
                             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                           </rowConstraints>
                            <children>
-                              <Label GridPane.halignment="CENTER">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.halignment="CENTER">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.columnIndex="1" GridPane.halignment="CENTER">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1" GridPane.halignment="CENTER">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.columnIndex="2" GridPane.halignment="CENTER">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.halignment="CENTER">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.halignment="CENTER" GridPane.rowIndex="1">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.halignment="CENTER" GridPane.rowIndex="1">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.halignment="CENTER" GridPane.rowIndex="2">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.halignment="CENTER" GridPane.rowIndex="2">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
@@ -233,47 +233,47 @@
                             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                           </rowConstraints>
                            <children>
-                              <Label GridPane.halignment="CENTER">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.halignment="CENTER">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.columnIndex="1" GridPane.halignment="CENTER">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1" GridPane.halignment="CENTER">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.columnIndex="2" GridPane.halignment="CENTER">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.halignment="CENTER">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.halignment="CENTER" GridPane.rowIndex="1">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.halignment="CENTER" GridPane.rowIndex="1">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.halignment="CENTER" GridPane.rowIndex="2">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.halignment="CENTER" GridPane.rowIndex="2">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
@@ -292,47 +292,47 @@
                             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                           </rowConstraints>
                            <children>
-                              <Label GridPane.halignment="CENTER">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.halignment="CENTER">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.columnIndex="1" GridPane.halignment="CENTER">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1" GridPane.halignment="CENTER">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.columnIndex="2" GridPane.halignment="CENTER">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.halignment="CENTER">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.halignment="CENTER" GridPane.rowIndex="1">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.halignment="CENTER" GridPane.rowIndex="1">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.halignment="CENTER" GridPane.rowIndex="2">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.halignment="CENTER" GridPane.rowIndex="2">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
@@ -351,47 +351,47 @@
                             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                           </rowConstraints>
                            <children>
-                              <Label GridPane.halignment="CENTER">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.halignment="CENTER">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.columnIndex="1" GridPane.halignment="CENTER">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1" GridPane.halignment="CENTER">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.columnIndex="2" GridPane.halignment="CENTER">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.halignment="CENTER">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.halignment="CENTER" GridPane.rowIndex="1">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.halignment="CENTER" GridPane.rowIndex="1">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.halignment="CENTER" GridPane.rowIndex="2">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.halignment="CENTER" GridPane.rowIndex="2">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
@@ -410,47 +410,47 @@
                             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                           </rowConstraints>
                            <children>
-                              <Label GridPane.halignment="CENTER">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.halignment="CENTER">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.columnIndex="1" GridPane.halignment="CENTER">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1" GridPane.halignment="CENTER">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.columnIndex="2" GridPane.halignment="CENTER">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.halignment="CENTER">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.halignment="CENTER" GridPane.rowIndex="1">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.halignment="CENTER" GridPane.rowIndex="1">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.halignment="CENTER" GridPane.rowIndex="2">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.halignment="CENTER" GridPane.rowIndex="2">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
@@ -469,47 +469,47 @@
                             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                           </rowConstraints>
                            <children>
-                              <Label GridPane.halignment="CENTER">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.halignment="CENTER">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.columnIndex="1" GridPane.halignment="CENTER">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1" GridPane.halignment="CENTER">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.columnIndex="2" GridPane.halignment="CENTER">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.halignment="CENTER">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.halignment="CENTER" GridPane.rowIndex="1">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.halignment="CENTER" GridPane.rowIndex="1">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.halignment="CENTER" GridPane.rowIndex="2">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.halignment="CENTER" GridPane.rowIndex="2">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
@@ -528,47 +528,47 @@
                             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                           </rowConstraints>
                            <children>
-                              <Label GridPane.halignment="CENTER">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.halignment="CENTER">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.columnIndex="1" GridPane.halignment="CENTER">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1" GridPane.halignment="CENTER">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.columnIndex="2" GridPane.halignment="CENTER">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.halignment="CENTER">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.halignment="CENTER" GridPane.rowIndex="1">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.halignment="CENTER" GridPane.rowIndex="1">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.halignment="CENTER" GridPane.rowIndex="2">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.halignment="CENTER" GridPane.rowIndex="2">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>
                               </Label>
-                              <Label GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+                              <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#onMouseClicked" prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2">
                                  <font>
                                     <Font name="System Bold" size="12.0" />
                                  </font>

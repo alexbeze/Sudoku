@@ -16,9 +16,7 @@ public class Engine {
     public Engine(int[][] grille){
         this.grille = new int[9][9];
         for (int i=0;i<9;i++) {
-            for (int j=0; j<9;j++) {
-                this.grille[i][j] = grille[i][j];
-            }
+            System.arraycopy(grille[i], 0, this.grille[i], 0, 9);
         }
     }
 
@@ -101,9 +99,10 @@ public class Engine {
      */
     public void generation() {
         for (int i = 0; i <9; i+=3) {generationSousGrille(i,i);}
-
-        for(int i = 0; i < 9; i++){for(int j = 0; j < 9; j++){this.grilleReponse[i][j] = grille[i][j];}}
-
+        this.generationAutreSousGrille(0,3);
+        for(int i = 0; i < 9; i++){
+            System.arraycopy(grille[i], 0, this.grilleReponse[i], 0, 9);
+        }
         boolean res = true;
         int i = 50;
         while(res) {
@@ -112,11 +111,9 @@ public class Engine {
             if (grille[r][c]!=0) {
                 int value = grille[r][c];
                 grille[r][c] = 0;
-                if (isUniqueSolution()) {
+                if (isSolutionUnique()) {
                     i--;
-                    if (i<=0) {
-                        res = false;
-                    }
+                    if (i<=0) { res = false; }
                 } else {
                     grille[r][c] = value;
                     res = false;
@@ -143,6 +140,45 @@ public class Engine {
     }
 
     /**
+     *
+     * @param l
+     * @param c
+     * @return
+     */
+    private boolean generationAutreSousGrille(int l, int c) {
+        if ((c>=9)&&(l<8)){
+            l=l+1;
+            c=0;
+        }
+
+        if((c>=9)&&(l>=9)) {
+            return true;
+        }
+
+        if (l < 3) {
+            if (c <3) c=3;
+        } else if (l < 6) {
+            if (c >=3 && c <6) c =6;
+        } else {
+            if (c >= 6) {
+                l+= 1; c=0;
+                if (l >= 9) return true;
+            }
+        }
+
+        for (int num=1; num <=9; num++) {
+            if (canPlace(num, l, c)){
+                grille[l][c] = num;
+                if (generationAutreSousGrille(l, c+1))
+                    return true;
+                grille[l][c] = 0;
+            }
+        }
+
+        return false;
+    }
+
+    /**
      * Test si un nombre peut etre placé
      */
     public boolean canPlace(int num, int r, int c) {
@@ -155,7 +191,7 @@ public class Engine {
      * On teste si la solution est unique
      * @return booleen reponse
      */
-    public boolean isUniqueSolution() {
+    public boolean isSolutionUnique() {
         Solver solver = new Solver(new Engine(grille));
         solver.solve(true);
         Engine firstSolution = solver.getMoteurJeu();
@@ -184,7 +220,7 @@ public class Engine {
     /**
      * On test si la valeur est présente dans la colonne
      * @param num numéro
-     * @param r lign
+     * @param c colonne
      * @return booleen reponse
      */
     private boolean isColonne(int num, int c) {
